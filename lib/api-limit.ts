@@ -43,7 +43,7 @@ export const getuserStatsCount = async () => {
   if (!userId) {
     return {
       generations: 0,
-      maxGenerations: 5,
+      maxGenerations: 50,
     };
   }
   const userStats = await prismadb.user.findUnique({
@@ -52,7 +52,7 @@ export const getuserStatsCount = async () => {
   if (!userStats) {
     return {
       generations: 0,
-      maxGenerations: 5,
+      maxGenerations: 50,
     };
   }
   return {
