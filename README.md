@@ -74,8 +74,7 @@ Ensure you have the following installed:
 
 divyaGPT operates on the idea that **great questions lead to great answers.** Rather than providing instant, straightforward solutions, divyaGPT makes users engage their brains, prompting them to think deeply and critically. This Socratic approach ensures that the knowledge gained sticks with the user far longer than if they had been spoon-fed the information.
 
-For more technical discussions, divyaGPT navigates users through complex topics in **Data Structures and Algorithms**, while in the spiritual realm, divyaGPT explores the vast wealth of ancient Bharatiya wisdom, offering insights into practices such as meditation, karma cycles, and mantras.
-
+For more technical discussions, divyaGPT navigates users through complex topics in **Data Structures and Algorithms**.
 ---
 
 ## ✨ Key Sections
