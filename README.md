@@ -48,7 +48,13 @@ Ensure you have the following installed:
 3. Add the .env file and your Google credentials to the home directory.
    It should contain clerk keys, google generative keys, google application credentials, CAIP project ID, and also database url.
    
-5. Start the development server:
+4. Push the schema to your database using
+   ```bash
+   npx prisma db push
+   npx prisma generate
+   ```
+   
+6. Start the development server:
 
     ```bash
     npm start
@@ -75,8 +81,8 @@ For more technical discussions, divyaGPT navigates users through complex topics 
 ## ✨ Key Sections
 
 - **Home**: Learn about divyaGPT and get started with your Socratic journey.
-- **Spiritual Wisdom**: Dive into mystical knowledge from the Ramayana, Mahabharata, and other sacred texts.
-- **Data Structures & Algorithms**: Brush up on your DSA skills with divyaGPT’s unique Q&A approach.
+- **Chat**: Dive into anything you want.
+- **Problem Solving**: Brush up on your DSA skills with divyaGPT’s unique Q&A approach.
 
 ---
 
@@ -94,22 +100,18 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 ## 🛡️ License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/inventwithdean/divyagpt/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
 ## 🙌 Acknowledgements
 
 - Inspired by Socratic philosophy for learning.
-- Designed with love for ancient wisdom and technical mastery.
+- Designed with love for technical mastery, and to elicit deep thoughts.
 
 ---
 
 ### 🌐 Connect with Us
 
 - **Website**: [divyaGPT.com](#)
-- **GitHub**: [https://github.com/inventwithdean/divyagpt](https://github.com/inventwithdean/divyagpt)
-
----
-
-By making the README both **informative** and **engaging**, it will help showcase the uniqueness of divyaGPT and invite contributions from the open-source community!
+- **Linkedin**: [https://linkedin.com/in/inventwithdean](https://linkedin.com/in/inventwithdean)
