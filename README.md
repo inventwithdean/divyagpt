@@ -113,5 +113,5 @@ This project is licensed under the MIT License.
 
 ### 🌐 Connect with Us
 
-- **Website**: [divyaGPT.com](#)
+- **Website**: [divyaGPT.com](https://divyagpt.com)
 - **Linkedin**: [https://linkedin.com/in/inventwithdean](https://linkedin.com/in/inventwithdean)
