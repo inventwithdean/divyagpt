@@ -8,16 +8,16 @@ export const incrementUserGenerations = async () => {
   if (!userId) {
     return;
   }
-  const userStats = await prismadb.userStats.findUnique({
+  const userStats = await prismadb.user.findUnique({
     where: { userId: userId },
   });
   if (userStats) {
-    await prismadb.userStats.update({
+    await prismadb.user.update({
       where: { userId: userId },
       data: { generations: userStats.generations + 1 },
     });
   } else {
-    await prismadb.userStats.create({
+    await prismadb.user.create({
       data: { userId: userId, generations: 1, email: email },
     });
   }
@@ -28,7 +28,7 @@ export const canGenerate = async () => {
   if (!userId) {
     return false;
   }
-  const userStats = await prismadb.userStats.findUnique({
+  const userStats = await prismadb.user.findUnique({
     where: { userId: userId },
   });
   if (!userStats || userStats.generations < userStats.maxgenerations) {
@@ -46,7 +46,7 @@ export const getuserStatsCount = async () => {
       maxGenerations: 5,
     };
   }
-  const userStats = await prismadb.userStats.findUnique({
+  const userStats = await prismadb.user.findUnique({
     where: { userId: userId },
   });
   if (!userStats) {
